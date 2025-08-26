@@ -8,5 +8,5 @@ export const aboutSection: AboutSectionType = {
     title: 'Here are a few technologies I’ve been working with recently:',
     items: ['JavaScript', 'Typescript', 'Python', 'FastAPI', 'AWS', 'AI/ML'],
   },
-  img: '/matthew-mckinnerney.jpg',
+  img: '/matthewmckinnerney.png',
 };
