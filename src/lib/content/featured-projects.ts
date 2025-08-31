@@ -6,36 +6,39 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
   projects: [
     {
       id: getId(),
-      name: 'Anzens',
-      description: 'A fully backed Cardano stablecoin.',
+      name: 'Grow Curriculum',
+      description: 'A powerful tool designed for youth and children’s ministries.',
       tasks:
-        'I strategically planned project milestones, led a cross-functional team, established a fully managed system, developed the UIs and backend services, and integrated Stripe payments with secure authentication.',
-      url: 'https://anzens.com/',
-      img: 'https://i.postimg.cc/mkWZWhPB/chrome-96-Gys8j-N9-K.png',
-      tags: ['Cardano', 'payment', 'financial', 'responsive', 'Prisma'],
+        'I collaborated with ministry leaders to define feature priorities, architected a scalable multi-platform solution, designed intuitive interfaces, built robust backend APIs, and integrated real-time attendance tracking with role-based access control.',
+      url: 'https://growcurriculum.org/',
+      img: 'https://i.postimg.cc/Z5BrVmLf/chrome-ya2s7krcfc.png',
+      tags: ['education', 'youth-ministry', 'multi-platform', 'attendance-tracking', 'role-based-access', 'API-development', 'UX/UI-design', 'React-Native', 'Node.js', 'PostgreSQL', 'cloud-deployment']
     },
     {
       id: getId(),
-      name: 'CardanoSpot',
-      description:
-        'A platform that redefines the way individuals find their life partners.',
+      name: 'Hubfleet',
+      description: 'A cross-platform fleet-management system for logistics and operations.',
       tasks:
-        'As a freelancer, I developed this project by planning, communicating with the client, gathering feedback, implementing UI & pages, and integrating real-time data fetching with filtering functionality.',
-      url: 'https://cardanospot.io/landing',
-      img: 'https://i.postimg.cc/cCzmJyNx/chrome-e-Jz-Dbac-YRb.png',
-      tags: ['Cardano', 'Chat', 'Social-media', 'Real-Time'],
+        'I partnered with fleet operators to gather operational requirements, implemented real-time GPS tracking, developed fatigue monitoring algorithms, built a centralized dashboard, and ensured cross-platform consistency with secure data synchronization.',
+      url: 'https://hubfleet.com.au/',
+      img: 'https://i.postimg.cc/y8t2bVCW/chrome-ZKBmlev-Pzy.png',
+      tags: ['fleet-management', 'real-time-tracking', 'geo-fencing', 'vehicle-diagnostics', 'driver-fatigue', 'cross-platform', 'dashboard', 'alerts', 'React-Native', 'Node.js', 'PostgreSQL', 'cloud-infrastructure']
     },
     {
       id: getId(),
-      name: 'BigWins',
-      description:
-        'A Bitcoin online casino gaming site where you can make deposits, bets, and withdrawals using a cryptocurrency known as Bitcoin.',
+      name: 'FuelFinance',
+      description: 'Financial planning & analytics platform for spreadsheet-driven businesses.',
       tasks:
-        'I designed and developed the whole backend logic and payment gateway integration, ensuring fairness and security, consistency',
-      url: 'https://bigwins.com/index.html',
-      img: 'https://i.postimg.cc/7PBGTnJ2/chrome-s-TILQNM5-I2.png',
-      tags: ['Casino', 'Gaming', 'Payment', 'Backend'],
-    },
+        'I worked with finance stakeholders to define KPIs, modeled a ledger-safe schema, built ingestion pipelines, automated ETL for forecasts, and delivered interactive dashboards for decision-making and transparency.',
+      url: 'https://fuelfinance.me/',
+      img: 'https://i.postimg.cc/ncc8sR1V/chrome-qijl-YLGXXT.png',
+      tags: [
+        'financial-planning',
+        'cashflow-management',
+        'profit-loss-analysis',
+        'forecasting',
+      ]
+    }
   ],
 };
 
