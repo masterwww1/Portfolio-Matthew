@@ -6,6 +6,7 @@ import {
   ProjectType,
   SocialLinkType,
   SoftwareSkillType,
+  BlogType,
 } from '.';
 
 export interface Section {
@@ -56,6 +57,10 @@ export interface ExperienceSectionType extends Section {
 
 export interface ProjectsSectionType extends Section {
   projects: ProjectType[];
+}
+
+export interface BlogSectionType extends Section {
+  blogs: BlogType[];
 }
 
 export interface FeaturedProjectsSectionType extends Section {

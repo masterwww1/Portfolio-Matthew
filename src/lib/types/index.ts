@@ -32,6 +32,14 @@ export type ProjectType = {
   repo: string;
 };
 
+export type BlogType = {
+  id: string;
+  name: string;
+  url: string;
+  img: string;
+  tags: string[];
+};
+
 export interface FeaturedProjectType
   extends Omit<ProjectType, 'year' | 'repo'> {
   description: string;
