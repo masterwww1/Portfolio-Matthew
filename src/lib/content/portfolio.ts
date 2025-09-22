@@ -8,7 +8,7 @@ import { StringKeyValueType } from '../types';
 
 export const socialLinks: StringKeyValueType = {
   github: 'https://github.com/masterwww1',
-  linkedin: 'https://www.linkedin.com/in/matthew-kinnerney-92582937a',
+  linkedin: 'https://www.linkedin.com/in/matthew-mckinnerney-a4a342386',
 };
 
 export const author = {
