@@ -13,7 +13,7 @@ export const socialLinks: StringKeyValueType = {
 
 export const author = {
   name: 'Matthew McKinnerney',
-  email: 'matthewkinner2@gmail.com',
+  email: 'matthewkinnerney@gmail.com',
 };
 
 export const seoData = {
