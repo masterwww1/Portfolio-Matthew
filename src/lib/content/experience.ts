@@ -8,11 +8,11 @@ export const experienceSection: ExperienceSectionType = {
       companyUrl: 'https://www.amazon.com/',
       role: 'Full Stack Engineer',
       started: 'Dec 2023',
-      upto: 'Jun 2025',
+      upto: 'Aug 2025',
       tasks: [
         'Developed and maintained an internal staff management platform, streamlining HR, scheduling, and operational workflows, improving efficiency and reducing administrative overhead.',
         'Built and deployed serverless functions with AWS Lambda to handle event-driven processes, reducing infrastructure costs and enabling scalable, on-demand execution.',
-        'Designed secure RESTful APIs through Amazon API Gateway integrated with AWS Cognito, enforcing authentication and role-based authorization across staff systems.',
+        'Designed secure, event-driven architectures by integrating AWS Cognito with Amazon API Gateway for authentication and role-based access control, and implemented scalable business logic with AWS Lambda.',
         'Implemented real-time communication features using WebSockets, enabling instant notifications, scheduling updates, and live dashboard refreshes.',
         'Managed secure, isolated environments with Amazon VPC, applying security groups and subnet configurations to safeguard sensitive data.',
         'Optimized document storage and delivery with Amazon S3 and CloudFront, while applying AWS KMS encryption to protect employee and business data.',
